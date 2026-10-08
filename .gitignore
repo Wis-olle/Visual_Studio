@@ -1,0 +1,21 @@
+# Visual Studio local files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+TestResults/
+
+# NuGet packages (restore using packages.config)
+packages/
+
+# Local secrets
+.env
+.env.*
+!.env.example
